@@ -1,0 +1,6 @@
+pytest>=7.0
+hypothesis>=6.0
+ruff>=0.0.240
+pandas>=1.5
+numpy>=1.23
+GitPython>=3.1

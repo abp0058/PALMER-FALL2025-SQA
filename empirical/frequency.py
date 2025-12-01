@@ -8,6 +8,8 @@ import os
 import pandas as pd 
 import time 
 import datetime 
+import logging
+logger = logging.getLogger(__name__)
 
 def giveTimeStamp():
   tsObj = time.time()
@@ -16,6 +18,7 @@ def giveTimeStamp():
 
 
 def getAllSLOC(df_param, csv_encoding='latin-1' ):
+    logger.info(f"getAllSLOC: files={len(df_param)}, encoding={csv_encoding}")
     total_sloc = 0
     all_files = np.unique( df_param['FILE_FULL_PATH'].tolist() ) 
     for file_ in all_files:

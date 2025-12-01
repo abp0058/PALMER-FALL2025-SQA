@@ -8,8 +8,7 @@ import subprocess
 import shutil
 from git import Repo
 from git import exc 
-import logging
-logger = logging.getLogger(__name__)
+
 
 def giveTimeStamp():
   tsObj = time.time()
@@ -18,7 +17,6 @@ def giveTimeStamp():
   
 
 def deleteRepo(dirName, type_):
-    logger.info(f"deleteRepo: dirName={dirName}, type={type_}")
     print(':::' + type_ + ':::Deleting ', dirName)
     try:
         if os.path.exists(dirName):
@@ -35,7 +33,6 @@ def dumpContentIntoFile(strP, fileP):
   
   
 def makeChunks(the_list, size_):
-    logger.info(f"makeChunks: list_len={len(the_list)}, size={size_}")
     for i in range(0, len(the_list), size_):
         yield the_list[i:i+size_]
         

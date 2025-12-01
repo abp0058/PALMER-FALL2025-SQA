@@ -1,0 +1,4 @@
+# file: /Users/adrianpalmer/PycharmProjects/Comp_6710/term_project/PALMER-FALL2025-SQA/fuzz.py
+# hypothesis_version: 6.148.2
+
+[100, '.', '..', '/', 'FILE_FULL_PATH', '__main__', 'print("test")\n', 'w']
