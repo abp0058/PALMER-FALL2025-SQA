@@ -1,0 +1,27 @@
+Starting fuzzing tests...
+
+1. Testing deleteRepo...
+::::::Deleting  Z򤔁S
+:::򵶛N1򨜒Vò:::Deleting  Z򤔁S
+:::򃬓5íò:::Deleting  TRUE
+:::􁼹:::Deleting  
+
+::::::Deleting  󣑋`A䒇ico
+:::Ç
+:::Deleting  q
+:::򢓏񴥕:::Deleting  ã
+:::-񀡮ñæ:::Deleting  𬇨éY®
+:::-񀡮ñæ:::Deleting  -񀡮ñæ
+:::ãÍ:::Deleting  J"l
+:::ãÍ:::Deleting  ãÍ
+:::w:::Deleting  ÷C򅓿󷓐¡¨Bí]É¿[򒐶0°¨􌮡𥽤
+:::w:::Deleting  w
+:::S(Vþ:::Deleting  񗏛򈈦)å
+:::񗏛򈈦)å:::Deleting  񗏛򈈦)å
+:::¶DþTL𛄅û:::Deleting  मनीष منش
+2. Testing makeChunks...
+3. Testing dumpContentIntoFile...
+4. Testing getAllSLOC...
+5. Testing string operations...
+
+✓ Fuzzing completed successfully!
