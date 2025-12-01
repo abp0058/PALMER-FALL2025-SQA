@@ -1,0 +1,4 @@
+# file: /Users/adrianpalmer/PycharmProjects/Comp_6710/term_project/PALMER-FALL2025-SQA/mining/mining.py
+# hypothesis_version: 6.148.2
+
+[0.1, 100, 1000, ' ; ', '!', '#', '%Y-%m-%d', '%Y-%m-%d %H:%M:%S', '*', ',', '-', '-c', '../FSE2021_REPOS/', '/', ':::', ':::Deleting ', '@', 'AGE_MONTHS', 'COMMITS', 'Cloning ', 'DEVS', 'Duration: {} minutes', 'Ended at:', 'FILES', 'FLAG', 'INDEX', 'LIMITED_COMMITS', 'LIMITED_DEVS', 'MAMEToolkit', 'NO_FILES', 'NO_PATTERN', 'PYTHON_BREAKDOWN.csv', 'PYTHON_FILES', 'REPO', 'Repos to download:', 'Started at:', '\\n', '^', '^!', '__main__', 'bash', 'cd ', 'chainer', 'chainerrl', 'delimiter', 'git clone ', 'gym', 'h5py', 'ipynb', 'item_->->->', 'keras', 'latin-1', 'master', 'py', 'pyqlearning', 'r', 'rl', 'rl_coach', 'sklearn', 'stable_baselines', 'tensorflow', 'tensorforce', 'tf', 'torch', 'url', 'utf-8', 'w']

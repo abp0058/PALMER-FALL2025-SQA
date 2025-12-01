@@ -26,8 +26,10 @@ def getAllSLOC(df_param, csv_encoding='latin-1' ):
     return total_sloc
 
 def reportProportion( res_file, output_file ):
+    logger.info(f"reportProportion: input={res_file}, output={output_file}")
     res_df = pd.read_csv( res_file )
     repo_names   = np.unique( res_df['REPO_FULL_PATH'].tolist() )
+    logger.info(f"reportProportion: processing {len(repo_names)} repositories")
     
     fields2explore = ['DATA_LOAD_COUNT', 'MODEL_LOAD_COUNT', 'DATA_DOWNLOAD_COUNT',	'MODEL_LABEL_COUNT', 'MODEL_OUTPUT_COUNT',	
                     'DATA_PIPELINE_COUNT', 'ENVIRONMENT_COUNT', 'STATE_OBSERVE_COUNT',  'TOTAL_EVENT_COUNT'
@@ -51,6 +53,8 @@ def reportProportion( res_file, output_file ):
             
     CSV_HEADER = ['REPO_NAME', 'TOTAL_FILES', 'CATEGORY', 'ATLEASTONE', 'PROP_VAL']
     full_df = pd.DataFrame( df_list ) 
+    full_df.to_csv(output_file, index=False, header=CSV_HEADER, encoding='latin-1')
+    logger.info(f"reportProportion: completed, wrote results to {output_file}")
     full_df.to_csv(output_file, header= CSV_HEADER, index=False, encoding= 'utf-8') 
 
 
